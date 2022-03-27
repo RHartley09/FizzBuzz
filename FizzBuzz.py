@@ -13,3 +13,18 @@ def fizzBuzzBetter(intArray):
         else:
             placeHere.append(n)
     return placeHere
+
+# And just for fun ...
+
+def fzbzJohnStamos(intArray):
+    placeHere = []
+    for n in intArray:
+        if n % 3 == 0 and n % 5 == 0:
+            placeHere.append("John Stamos")
+        elif n % 3 == 0:
+            placeHere.append("John")
+        elif n % 5 == 0:
+            placeHere.append("Stamos")
+        else:
+            placeHere.append(n)
+    return placeHere
